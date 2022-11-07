@@ -36,7 +36,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Привет, ' + storedName;
+    myHeading.textContent = 'Доброго времени суток, ' + storedName;
   }
 
   myButton.onclick = function() {
